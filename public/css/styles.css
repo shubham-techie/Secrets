@@ -3,8 +3,18 @@ body {
   background-color: #E8ECEF;
 }
 
-.text-center {
+.text-center.content {
     padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.secret{
+  width:60%;
+}
+
+.text{
+  padding-left:15%;
+  padding-right:15%;
 }
 
 .secret-text {
