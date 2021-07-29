@@ -21,6 +21,26 @@ body {
   text-align: center;
   font-size: 2rem;
   color: #fff;
-  background-color: #000;
+  background-color: #194350;
+  width:70%;
+  margin:1% auto;
 }
 
+footer,#github-link{
+  font-family: 'Lobster', cursive;
+  color:#fff;
+} 
+
+footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	background-color: #282d32;
+	text-align: center;
+  padding-top:1%;
+}
+
+.secret-button{
+  margin-bottom: 2%;
+}

@@ -83,7 +83,7 @@ passport.use(new FacebookStrategy({
     callbackURL: "http://localhost:3000/auth/facebook/secrets"
 },
     function (accessToken, refreshToken, profile, cb) {
-        console.log(profile);
+        // console.log(profile);
         User.findOrCreate({ username: profile.displayName, facebookId: profile.id }, function (err, user) {
             return cb(err, user);
         });
