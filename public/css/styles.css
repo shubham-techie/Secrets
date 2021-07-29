@@ -26,6 +26,11 @@ body {
   margin:1% auto;
 }
 
+
+.secret-button{
+  margin-bottom: 2%;
+}
+
 footer,#github-link{
   font-family: 'Lobster', cursive;
   color:#fff;
@@ -41,6 +46,3 @@ footer {
   padding-top:1%;
 }
 
-.secret-button{
-  margin-bottom: 2%;
-}
